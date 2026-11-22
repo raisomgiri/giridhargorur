@@ -3,29 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Giridhar Gorur, Speaker</title>
+<title>Giridhar Gorur, B2B Marketing Leader</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Giridhar Gorur is a B2B marketing leader and speaker on running marketing and sales as one measurable system.">
+<meta name="description" content="Giridhar Gorur is a B2B marketing leader focused on running marketing and sales as one measurable system.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: warm white page with sage bands; the Revenue Hydraulics schematic, drawn like an engineering P&ID, is the one bold moment. */
+/* Layout: white page, black type and black bands, bold key words in headlines; the Revenue Hydraulics schematic, drawn like an engineering P&ID, is the one bold moment. */
 :root {
-  --paper: #f7f8f2;
-  --sage-wash: #eaf0e4;
-  --sage: #d3e0c9;
-  --sage-deep: #9fb894;
-  --forest: #23452f;
-  --forest-soft: #3d6649;
-  --ink: #1b2820;
-  --muted: #5a6a5f;
-  --line: #d6dfcf;
-  --brass: #b9813a;
+  --paper: #ffffff;
+  --sage-wash: #f5f5f4;
+  --sage: #efefee;
+  --sage-deep: #c9c9c7;
+  --forest: #0b0b0b;
+  --forest-soft: #3f3f3f;
+  --ink: #0b0b0b;
+  --muted: #5f5f5f;
+  --line: #e6e6e4;
+  --brass: #0b0b0b;
   --white: #ffffff;
-  --display: "Fraunces", Georgia, "Times New Roman", serif;
-  --body: "Hanken Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --display: "Inter", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --body: "Inter", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --mono: "Inter", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
   color-scheme: light;
 }
 * { box-sizing: border-box; }
@@ -38,7 +38,9 @@ img { max-width: 100%; display: block; }
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--forest); outline-offset: 3px; border-radius: 6px; }
 .wrap { max-width: 1140px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
-h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.08; margin: 0; letter-spacing: -0.015em; text-wrap: balance; }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.1; margin: 0; letter-spacing: -0.03em; text-wrap: balance; }
+h1 strong, h2 strong { font-weight: 700; }
+h3 { font-weight: 600; letter-spacing: -0.02em; }
 p { margin: 0; }
 .label { font: 500 0.74rem/1.4 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--forest-soft); }
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px; font: 600 0.95rem/1 var(--body); text-decoration: none; border: 1.5px solid var(--forest); background: transparent; color: var(--forest); cursor: pointer; transition: background .2s, color .2s, transform .2s; }
@@ -68,7 +70,7 @@ p { margin: 0; }
 .monogram { display: grid; place-items: center; gap: 10px; text-align: center; }
 .monogram span { font: 500 5.2rem/1 var(--display); color: var(--forest); letter-spacing: -0.03em; }
 .monogram small { font: 500 0.72rem/1.4 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--forest-soft); }
-.gauge-chip { position: absolute; left: -36px; bottom: 32px; background: var(--white); border: 1px solid var(--line); border-radius: 18px; padding: 14px 18px; display: flex; align-items: center; gap: 14px; box-shadow: 0 10px 30px rgba(35,69,47,.10); }
+.gauge-chip { position: absolute; left: -36px; bottom: 32px; background: var(--white); border: 1px solid var(--line); border-radius: 18px; padding: 14px 18px; display: flex; align-items: center; gap: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.10); }
 .gauge-chip svg { flex: none; }
 .gauge-chip b { display: block; font: 600 1.5rem/1 var(--display); color: var(--forest); }
 .gauge-chip span { font-size: 0.8rem; color: var(--muted); line-height: 1.35; display: block; margin-top: 4px; }
@@ -77,13 +79,13 @@ p { margin: 0; }
 /* Proof */
 .proof { background: var(--forest); color: var(--paper); }
 .proof .wrap { display: grid; grid-template-columns: repeat(5, 1fr); }
-.stat { padding: 30px 18px; display: grid; gap: 6px; border-left: 1px solid rgba(247,248,242,.16); min-width: 0; }
+.stat { padding: 30px 18px; display: grid; gap: 6px; border-left: 1px solid rgba(255,255,255,.16); min-width: 0; }
 .stat:first-child { border-left: 0; padding-left: 0; }
 .stat .n { font: 500 clamp(1.6rem, 2.8vw, 2.1rem)/1 var(--display); font-variant-numeric: tabular-nums; }
-.stat .d { color: #c5d4bd; font-size: 0.87rem; line-height: 1.4; }
+.stat .d { color: #b5b5b3; font-size: 0.87rem; line-height: 1.4; }
 @media (max-width: 900px) {
   .proof .wrap { grid-template-columns: 1fr 1fr; }
-  .stat { border-left: 0; border-top: 1px solid rgba(247,248,242,.16); padding-left: 0; }
+  .stat { border-left: 0; border-top: 1px solid rgba(255,255,255,.16); padding-left: 0; }
   .stat:nth-child(-n+2) { border-top: 0; }
   .stat:last-child { grid-column: 1 / -1; }
 }
@@ -134,7 +136,7 @@ p { margin: 0; }
 .rh-intro { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: end; margin-bottom: 48px; }
 .rh-intro h2 { font-size: clamp(2.4rem, 5vw, 3.8rem); color: var(--forest); }
 .rh-intro h2 sup { font: 500 0.9rem/1 var(--mono); vertical-align: super; margin-left: 4px; }
-.rh-intro .def { font: 400 1.35rem/1.45 var(--display); color: var(--ink); margin-top: 18px; }
+.rh-intro .def { font: 400 1.3rem/1.5 var(--display); color: var(--ink); margin-top: 18px; }
 .rh-intro .origin { color: var(--muted); display: grid; gap: 14px; }
 @media (max-width: 880px) { .rh-intro { grid-template-columns: 1fr; gap: 24px; } }
 .schematic { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 24px; overflow-x: auto; margin-bottom: 56px; }
@@ -155,7 +157,7 @@ p { margin: 0; }
 .engagements { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .eng { background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 30px 26px; display: grid; gap: 16px; align-content: start; }
 .eng.feature { background: var(--forest); color: var(--paper); border-color: var(--forest); }
-.eng.feature .who, .eng.feature .shape { color: #c5d4bd; }
+.eng.feature .who, .eng.feature .shape { color: #b5b5b3; }
 .eng.feature li::before { background: var(--sage); }
 .eng h3 { font-size: 1.55rem; }
 .eng .who { color: var(--muted); }
@@ -163,7 +165,7 @@ p { margin: 0; }
 .eng li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; font-size: 0.97rem; }
 .eng li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--forest-soft); margin-top: 0.62em; }
 .eng .shape { font: 500 0.76rem/1.45 var(--mono); color: var(--muted); border-top: 1px solid currentColor; border-top-color: var(--line); padding-top: 14px; }
-.eng.feature .shape { border-top-color: rgba(247,248,242,.2); }
+.eng.feature .shape { border-top-color: rgba(255,255,255,.2); }
 @media (max-width: 900px) { .engagements { grid-template-columns: 1fr; } }
 
 /* Track record */
@@ -227,12 +229,11 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="label">B2B Marketing Leader · Speaker</p>
-        <h1>Marketing your sales team trusts with its pipeline.</h1>
+        <p class="label">B2B Marketing Leader</p>
+        <h1>Marketing your sales team <strong>trusts with its pipeline.</strong></h1>
         <p class="lede">I write and speak about one idea: B2B leaders should run marketing and sales as <strong>one measurable system</strong>. Twenty years of building that system across India, the Middle East, Africa and the US.</p>
         <div class="cta-row">
-          <a class="btn solid" href="#contact">Invite me to speak</a>
-          <a class="btn" href="#method">Explore the method</a>
+          <a class="btn solid" href="#method">Explore the method</a>
         </div>
       </div>
       <div class="portrait">
@@ -241,10 +242,10 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </div>
         <div class="gauge-chip">
           <svg width="52" height="34" viewBox="0 0 52 34" aria-hidden="true">
-            <path d="M4 30 A22 22 0 0 1 48 30" fill="none" stroke="#d3e0c9" stroke-width="5" stroke-linecap="round"/>
-            <path d="M4 30 A22 22 0 0 1 43 15" fill="none" stroke="#23452f" stroke-width="5" stroke-linecap="round"/>
-            <line x1="26" y1="30" x2="41" y2="17" stroke="#b9813a" stroke-width="2.5" stroke-linecap="round"/>
-            <circle cx="26" cy="30" r="3" fill="#b9813a"/>
+            <path d="M4 30 A22 22 0 0 1 48 30" fill="none" stroke="#e9e9e7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M4 30 A22 22 0 0 1 43 15" fill="none" stroke="#0b0b0b" stroke-width="5" stroke-linecap="round"/>
+            <line x1="26" y1="30" x2="41" y2="17" stroke="#6f6f6f" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="26" cy="30" r="3" fill="#6f6f6f"/>
           </svg>
           <div><b>~18x</b><span>USD 1.4M budget in,<br>USD 25M+ pipeline out</span></div>
         </div>
@@ -266,7 +267,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <div class="wrap">
       <div class="head">
         <p class="label">The problem</p>
-        <h2 id="problem-h">Your dashboard looks great. Your pipeline disagrees.</h2>
+        <h2 id="problem-h">Your dashboard looks great. <strong>Your pipeline disagrees.</strong></h2>
         <p>Most B2B marketing teams are busy. Fewer are accountable. These are the three gaps I see most often, and the ones I talk about most.</p>
       </div>
       <div class="symptoms">
@@ -294,7 +295,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="rh-intro">
         <div>
           <p class="label">The methodology</p>
-          <h2 id="rh-h" style="margin-top:14px">Revenue Hydraulics<sup>™</sup></h2>
+          <h2 id="rh-h" style="margin-top:14px"><strong>Revenue Hydraulics</strong><sup>™</sup></h2>
           <p class="def">B2B demand behaves like fluid in a closed system. It enters at defined points, moves only under pressure, loses energy to friction, and can be measured at every joint.</p>
         </div>
         <div class="origin">
@@ -308,59 +309,59 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <title id="schem-t">The Revenue Hydraulics circuit</title>
           <desc id="schem-d">Three inlets from a buying group join a manifold, pass a pump labelled pressure, a narrow section labelled friction with a gauge, a handover valve and a revenue outlet. A return line loops from revenue back to the source.</desc>
           <defs>
-            <marker id="arw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#23452f"/></marker>
-            <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b9813a" stroke-width="2"/></pattern>
+            <marker id="arw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0b0b0b"/></marker>
+            <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#d4572a" stroke-width="2"/></pattern>
           </defs>
           <!-- Inlets -->
-          <g fill="none" stroke="#9fb894" stroke-width="10" stroke-linecap="round">
+          <g fill="none" stroke="#b9d3e6" stroke-width="10" stroke-linecap="round">
             <path d="M40 70 C110 70 120 130 170 130"/>
             <path d="M40 130 L170 130"/>
             <path d="M40 190 C110 190 120 130 170 130"/>
           </g>
-          <g fill="#ffffff" stroke="#23452f" stroke-width="2">
+          <g fill="#ffffff" stroke="#0b0b0b" stroke-width="2">
             <circle cx="40" cy="70" r="11"/><circle cx="40" cy="130" r="11"/><circle cx="40" cy="190" r="11"/>
           </g>
-          <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#5a6a5f">
+          <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" fill="#5f5f5f">
             <text x="58" y="56">CFO</text><text x="58" y="118">CIO</text><text x="58" y="214">Head of Data</text>
           </g>
           <!-- Main pipe: manifold to pump -->
-          <line x1="170" y1="130" x2="300" y2="130" stroke="#9fb894" stroke-width="16" stroke-linecap="round"/>
+          <line x1="170" y1="130" x2="300" y2="130" stroke="#b9d3e6" stroke-width="16" stroke-linecap="round"/>
           <!-- Pump symbol -->
-          <circle cx="335" cy="130" r="34" fill="#ffffff" stroke="#23452f" stroke-width="2.5"/>
-          <path d="M318 112 L360 130 L318 148 z" fill="#23452f"/>
+          <circle cx="335" cy="130" r="34" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.5"/>
+          <path d="M318 112 L360 130 L318 148 z" fill="#0b0b0b"/>
           <!-- Pump to friction -->
-          <line x1="369" y1="130" x2="470" y2="130" stroke="#9fb894" stroke-width="16"/>
+          <line x1="369" y1="130" x2="470" y2="130" stroke="#b9d3e6" stroke-width="16"/>
           <!-- Friction section: narrow -->
-          <path d="M470 122 L500 126 L640 126 L670 122 L670 138 L640 134 L500 134 L470 138 z" fill="#9fb894"/>
+          <path d="M470 122 L500 126 L640 126 L670 122 L670 138 L640 134 L500 134 L470 138 z" fill="#b9d3e6"/>
           <rect x="505" y="114" width="130" height="8" fill="url(#hatch)"/>
           <rect x="505" y="138" width="130" height="8" fill="url(#hatch)"/>
           <!-- Gauge -->
-          <line x1="570" y1="114" x2="570" y2="86" stroke="#23452f" stroke-width="2"/>
-          <circle cx="570" cy="66" r="22" fill="#ffffff" stroke="#23452f" stroke-width="2"/>
-          <path d="M555 74 A16 16 0 0 1 585 74" fill="none" stroke="#d3e0c9" stroke-width="4"/>
-          <line x1="570" y1="68" x2="558" y2="60" stroke="#b9813a" stroke-width="2.5" stroke-linecap="round"/>
-          <circle cx="570" cy="68" r="2.5" fill="#b9813a"/>
+          <line x1="570" y1="114" x2="570" y2="86" stroke="#0b0b0b" stroke-width="2"/>
+          <circle cx="570" cy="66" r="22" fill="#ffffff" stroke="#0b0b0b" stroke-width="2"/>
+          <path d="M555 74 A16 16 0 0 1 585 74" fill="none" stroke="#dce9f3" stroke-width="4"/>
+          <line x1="570" y1="68" x2="558" y2="60" stroke="#d4572a" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="570" cy="68" r="2.5" fill="#d4572a"/>
           <!-- Friction to valve -->
-          <line x1="670" y1="130" x2="760" y2="130" stroke="#9fb894" stroke-width="16"/>
+          <line x1="670" y1="130" x2="760" y2="130" stroke="#b9d3e6" stroke-width="16"/>
           <!-- Valve symbol (bowtie) -->
-          <path d="M760 108 L800 130 L760 152 z M840 108 L800 130 L840 152 z" fill="#ffffff" stroke="#23452f" stroke-width="2.5" stroke-linejoin="round"/>
-          <line x1="800" y1="130" x2="800" y2="98" stroke="#23452f" stroke-width="2.5"/>
-          <line x1="786" y1="98" x2="814" y2="98" stroke="#23452f" stroke-width="2.5"/>
+          <path d="M760 108 L800 130 L760 152 z M840 108 L800 130 L840 152 z" fill="#ffffff" stroke="#0b0b0b" stroke-width="2.5" stroke-linejoin="round"/>
+          <line x1="800" y1="130" x2="800" y2="98" stroke="#0b0b0b" stroke-width="2.5"/>
+          <line x1="786" y1="98" x2="814" y2="98" stroke="#0b0b0b" stroke-width="2.5"/>
           <!-- Valve to outlet -->
-          <line x1="840" y1="130" x2="890" y2="130" stroke="#9fb894" stroke-width="16"/>
+          <line x1="840" y1="130" x2="890" y2="130" stroke="#b9d3e6" stroke-width="16"/>
           <!-- Outlet tank -->
-          <rect x="890" y="92" width="80" height="96" rx="10" fill="#d3e0c9" stroke="#23452f" stroke-width="2.5"/>
-          <rect x="892" y="130" width="76" height="56" rx="8" fill="#23452f"/>
+          <rect x="890" y="92" width="80" height="96" rx="10" fill="#dce9f3" stroke="#0b0b0b" stroke-width="2.5"/>
+          <rect x="892" y="130" width="76" height="56" rx="8" fill="#1f4e79"/>
           <!-- Flow arrows on main line -->
-          <g stroke="#23452f" stroke-width="2" fill="none">
+          <g stroke="#0b0b0b" stroke-width="2" fill="none">
             <line x1="200" y1="130" x2="250" y2="130" marker-end="url(#arw)"/>
             <line x1="395" y1="130" x2="445" y2="130" marker-end="url(#arw)"/>
             <line x1="690" y1="130" x2="740" y2="130" marker-end="url(#arw)"/>
           </g>
           <!-- Return line (closed loop) -->
-          <path d="M930 188 L930 262 Q930 276 916 276 L184 276 Q170 276 170 262 L170 150" fill="none" stroke="#23452f" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#arw)"/>
+          <path d="M930 188 L930 262 Q930 276 916 276 L184 276 Q170 276 170 262 L170 150" fill="none" stroke="#0b0b0b" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#arw)"/>
           <!-- Labels -->
-          <g font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#23452f" font-weight="500">
+          <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#0b0b0b" font-weight="500">
             <text x="186" y="246">I · SOURCE</text>
             <text x="300" y="196">II · PRESSURE</text>
             <text x="520" y="186">III · FRICTION</text>
@@ -368,7 +369,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
             <text x="884" y="78">REVENUE</text>
             <text x="760" y="186">HANDOVER</text>
           </g>
-          <g font-family="Hanken Grotesk, Arial, sans-serif" font-size="12" fill="#5a6a5f">
+          <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#5f5f5f">
             <text x="186" y="262">Named accounts</text>
             <text x="300" y="212">Point of view</text>
             <text x="520" y="202">Mid-funnel drop</text>
@@ -417,7 +418,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <div class="wrap">
       <div class="head">
         <p class="label">Track record</p>
-        <h2 id="record-h">Built it, scaled it, led it.</h2>
+        <h2 id="record-h">Built it, scaled it, <strong>led it.</strong></h2>
         <p>Two decades across enterprise technology, data and AI, and industrial markets.</p>
       </div>
       <div class="record">
@@ -488,7 +489,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <div class="wrap">
       <div class="head">
         <p class="label">Bio</p>
-        <h2 id="speak-h">Marketing measured in pipeline.</h2>
+        <h2 id="speak-h">Marketing measured in <strong>pipeline.</strong></h2>
         <p>Keynotes, panels and leadership workshops on revenue-accountable marketing, ABM and the future of the B2B marketing function.</p>
       </div>
       <div class="gallery">
@@ -544,7 +545,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   <div class="wrap">
     <div>
       <p class="label">Start a conversation</p>
-      <h2 id="contact-h" style="margin-top:14px">Tell me where your pressure drops.</h2>
+      <h2 id="contact-h" style="margin-top:14px">Tell me where your <strong>pressure drops.</strong></h2>
       <p>For speaking invitations, panels and podcasts, share the event, the audience and the date. Happy to compare notes with fellow marketing leaders too. Based in Chennai, India.</p>
     </div>
     <div class="reach">
